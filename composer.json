@@ -1,0 +1,39 @@
+{
+    "name": "mkohei/laravel-google-sheets-notification-channel",
+    "description": "Google Sheets Notification Channel for Laravel",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kohei Matsumoto",
+            "email": "baberugaberiimeronnv5@gmail.com"
+        }
+    ],
+    "scripts": {
+        "test": "vendor/bin/pest"
+    },
+    "require": {
+        "php": "^8.0"
+    },
+    "require-dev": {
+        "pestphp/pest": "^1.21",
+        "illuminate/notifications": "^9.5",
+        "guzzlehttp/guzzle": "^7.4",
+        "mockery/mockery": "^1.5",
+        "google/apiclient": "^2.12"
+    },
+    "autoload": {
+        "psr-4": {
+            "Mkohei\\LaravelGoogleSheetsNotificationChannel\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Mkohei\\LaravelTdNotificationChannel\\Test\\": "tests/"
+        }
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    }
+}
