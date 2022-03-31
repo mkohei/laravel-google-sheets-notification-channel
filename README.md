@@ -1,5 +1,8 @@
 # Google Sheets notifications channel for Laravel
 
+[![tests](https://github.com/mkohei/laravel-google-sheets-notification-channel/actions/workflows/tests.yml/badge.svg)](https://github.com/mkohei/laravel-google-sheets-notification-channel/actions/workflows/tests.yml)
+[![StyleCI](https://github.styleci.io/repos/475269632/shield?branch=main)](https://github.styleci.io/repos/475269632?branch=main)
+
 This package makes it easy to send [Google Sheets](https://www.google.com/sheets/about/) using the Laravel notification system and the [Google Sheets API](https://developers.google.com/sheets/api).
 
 ## Contents
