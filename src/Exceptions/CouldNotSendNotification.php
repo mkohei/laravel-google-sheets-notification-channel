@@ -11,7 +11,7 @@ class CouldNotSendNotification extends \Exception
      * Thrown if a notification instance does not implement a toGoogleSheets() method, but is
      * attempting to be delivered via the Google Sheets notification channel.
      *
-     * @param mixed $notification
+     * @param  mixed  $notification
      * @return static
      */
     public static function undefinedMethod($notification)
@@ -26,7 +26,7 @@ class CouldNotSendNotification extends \Exception
      * Thrown if a notification instance's toGoogleSheets() method returns a value other than
      * an instance of \Mkohei\LaravelGoogleSheetsNotificationChannel\GoogleSheetsMessage.
      *
-     * @param mixed $actual
+     * @param  mixed  $actual
      * @return static
      */
     public static function invalidMessage($actual)
@@ -46,7 +46,7 @@ class CouldNotSendNotification extends \Exception
      * Thrown if an unexpected exception was encountered whilst attempting to deliver the
      * notification.
      *
-     * @param \Exception $exception
+     * @param  \Exception  $exception
      * @return static
      */
     public static function unexpectedException(Exception $exception)
